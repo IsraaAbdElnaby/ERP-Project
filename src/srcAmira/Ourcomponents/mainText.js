@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './CSS/text.css';
+import '../CSS/text.css';
 // import Intro from './introMain';
 // import Aux from './globalClass/Aux'
 
@@ -14,7 +14,7 @@ class text extends Component{
     <div className = 'text2'>
     <p>International Journalist & Speaker</p>
     </div>
-    <img src = {require('./CSS/load.png')} className = 'smallImg'/>
+    <img src = {require('../CSS/img/load.png')} className = 'smallImg'/>
     <div className = 'text3'>
     <p>Jessy El Murr is a multimedia journalist, speaker and</p>
     <p>moderator with a special interest in social media</p>
