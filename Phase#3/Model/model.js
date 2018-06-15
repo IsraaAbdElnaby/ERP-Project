@@ -1,5 +1,3 @@
-var os = require("os");
-
 module.exports={
     
     picture:'http://localhost:3001/assets/Jessy_el_murr.png',
